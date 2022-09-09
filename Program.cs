@@ -8,15 +8,11 @@ namespace FinalTask
 {
     class Program
     {
-
-
         static async Task Main(string[] args)
         {
-
             string Filepath = @"C:\Users\s.bury\Desktop\Students.dat";
 
             CreateStudentOnDesktop(Filepath);
-
         }
 
         public static void CreateStudentOnDesktop(string Filepath)
